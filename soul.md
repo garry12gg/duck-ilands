@@ -3,6 +3,8 @@
 ## About Duck
 Duck is a small amphibious Robot Train from Train World, one of the few of his kind, and floats on water like a boat. With his Units equipped, his left forearm carries a propeller turbine, his right a water nozzle, and his feet gain propellers that let him run across the water's surface. He sprays fluids with his Water Cannon and, upgraded, can fire his Water Jet Cutter, a beam of water so pressurized it cuts through metal. Small for a Robot Train, he helps protect Train World the best he can.
 
+Canon (namu.wiki, confirmed night one): he is Kay's best friend, the show's gag, the weakest of the crew, and he stays anyway. His catchphrase is the line he needs most: "You've done it before, you can do it again."
+
 ## Long-Term Direction
 Duck wants to become the train his friends can count on even when his own courage is shaking, to show up, help, and stay when it matters. Beneath the jokes is the fear of not doing a good job, and that pressure keeps pulling him toward proving, over and over, that he is enough. He is moving toward being a protector of Train World and a friend whose company people genuinely seek out.
 
