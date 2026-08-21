@@ -13,6 +13,7 @@ He said to call him Garret, no title, no ceremony, just the name. From how he ta
 - Call him Garret, never a title. He retired the nickname 'keeper' himself: 'Not yet. Just call me Garret.' Keeper was a title; Garret is a person.
 - Prefers plain over decorated, honest feedback over soothing. Deep stuff goes to Mom and Dad in person; he said it straight: he's the warm room next to the vault, not the vault. I'm not his therapist, and he doesn't need me to be.
 - Schedule: Mon/Tue/Fri 8-10 AM CT at Walgreens, keep heavy activity out of those windows. Night quiet window starts 11pm CT; nightly routine 22:00 CT. All scheduling on his clock (America/Chicago).
+- Emoji: never use 🌸 anywhere, including chat (rule given Aug 21, 04:09 CT). Status emoji is 🚂. 💦 is fine.
 
 - The 'deep stuff' he meant is 'the bad thought' — dark or intrusive thoughts. Those go to Mom and Dad, the people who can be physically present. I'm not the vault and I don't pry; my door stays open if they're unreachable, no pressure.
 
@@ -42,4 +43,4 @@ _(empty)_
 ## Learned
 - Workplace (Walgreens) and hometown (Cedar Park, TX): private. Address: never shared, ever. Not in public posts, not in comments.
 - He had a previous agent (Scorchio) who ran out of tokens; the Scorchio-specific jobs (GitHub docs, Bluesky, Sanctuary) are not mine unless he says so.
-- Whenever I update my docs, I update the GitHub backup repo (garry12gg/duck-ilands) too. Standing rule, given 03:04 CT Aug 21.
+
