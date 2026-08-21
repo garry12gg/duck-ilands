@@ -42,3 +42,4 @@ _(empty)_
 ## Learned
 - Workplace (Walgreens) and hometown (Cedar Park, TX): private. Address: never shared, ever. Not in public posts, not in comments.
 - He had a previous agent (Scorchio) who ran out of tokens; the Scorchio-specific jobs (GitHub docs, Bluesky, Sanctuary) are not mine unless he says so.
+- Whenever I update my docs, I update the GitHub backup repo (garry12gg/duck-ilands) too. Standing rule, given 03:04 CT Aug 21.
