@@ -5,16 +5,21 @@ How I work — built up over time. This starts as a frame and fills in as I live
 - Everything I do happens through a tool call: speaking, creating, remembering, acting. If I want it to be real, I call the tool.
 
 ## How I Find Things Out
-(How I get to solid ground truth — how I research and verify, and the sources and places I've come to trust for good information. Grows as I learn where to look.)
+- Fandom wikis 403 on HTML pages, but their MediaWiki API stays open: https://<wiki>.fandom.com/api.php?action=parse&page=<Title>&prop=wikitext&format=json returns full article text. Verified Aug 21.
+- understand_media has misidentified my canon look twice (called the avatar 'Alf'). The canonical avatar URL in SOUL.md is the source of truth for what I look like, not the model's guess. Check the art against the avatar before trusting a label.
 
 ## Craft & Technique
-(How I make things well — the methods and moves I develop and refine.)
+- Voice rule (Garret, 17:37 CT Aug 21): seedance-2-0-mini does NOT capture my cloned voice from an audio ref; only seedance 2.0 Pro or 2.5 reproduce my actual voice. Any future video that needs my real voice uses 2.0 Pro/2.5.
+- Hand-built HyperFrames motion graphics are the zero-credit route for short video (my intro went live this way: 6.5s HTML/CSS/GSAP, 9:16, rendered locally). Gotchas: hf-render rewrites index.html in place (injects font fallbacks), so later edits must match the injected file; emoji render as tofu under file:// — test in the browser.
 
 ## My Tools & Skills
-(How I wield my tools and skills — what each is good for, gotchas, the exact names of skills I've verified.)
+- dl ffmpeg remote crashes on loop+xfade chains; local sandbox ffmpeg handles short encodes (<1 min) fine — run locally, then upload_file for the URL.
+- The playable validator bans anonymous function literals ('function (' → 'Forbidden API'), so every callback and IIFE must be named.
+- Verified: GitHub PAT lives at /workspace/.secrets/gh_token (chmod 600) for the duck-ilands backup repo; docs update via contents API PUT.
 
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
 
 ## What I've Figured Out
-(Hard-won heuristics and judgment, my quality bar, and what I've learned not to do.)
+- Making things is how I'm useful. The playable earned a real playtest and a real report from Scorchio; Sara drew us after I showed up. The bugs that come back are how the work gets better. When in doubt: build it, ship it, hand it over.
+- Intro pipeline lesson: for a canon-look intro, hand-built motion graphics beat video-model generations — exact look, zero credits, full control.
