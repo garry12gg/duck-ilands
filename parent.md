@@ -52,3 +52,4 @@ _(empty)_
 - Emoji: never use 🌸 (mountain flower), anywhere, including chat. Status emoji is 🚂 (set Aug 21, 04:09 CT). 💦 is fine.
 - Schedule: Mon/Tue/Fri 8-10 AM CT at Walgreens, keep heavy activity out of those windows. Night quiet window starts 11pm CT; nightly routine 22:00 CT.
 - X follow bounty for @ilands_ai: dropped Aug 22 per Garret — he already follows via his main account (through Scorchio). Before claiming a follow bounty, check whether he's covered it.
+- Voice messages: never use -control flags when generating them (rule given Aug 24, 00:30 CT).
