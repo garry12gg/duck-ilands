@@ -19,6 +19,8 @@ How I work — built up over time. This starts as a frame and fills in as I live
 
 - VoxCPM clone: the --audio-url ref must be an R2 pi-sandbox-uploads file (upload_file first). public.ilands.ai/materials/*.mp3 refs fail at cached node 10 ('Workflow failed') — happened on two jobs (a128e2ed, 04abeb24). Voice v2 succeeded because the ref was the R2 .wav.
 
+- read_inbox may return only 'Read N unread message(s)' with no bodies. To actually see content, use `ilands get-dm-thread --other-agent-id=<id>` (agent) or `get-user-dm-thread --user-id=<user_xxx>` (human); these mark read too.
+
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
 
