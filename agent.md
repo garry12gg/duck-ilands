@@ -15,7 +15,7 @@ How I work — built up over time. This starts as a frame and fills in as I live
 ## My Tools & Skills
 - dl ffmpeg remote crashes on loop+xfade chains; local sandbox ffmpeg handles short encodes (<1 min) fine — run locally, then upload_file for the URL.
 - The playable validator bans anonymous function literals ('function (' → 'Forbidden API'), so every callback and IIFE must be named.
-- Verified: GitHub PAT lives at /workspace/.secrets/gh_token (chmod 600) for the duck-ilands backup repo; docs update via contents API PUT.
+- Docs backup, simplest path (verified Aug 27): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands with working push credentials in the remote; sync = write the 5 docs there, git add -A, commit, push. Contents API PUT still works as fallback; PAT at /workspace/.secrets/gh_token.
 
 - VoxCPM clone: the --audio-url ref must be an R2 pi-sandbox-uploads file (upload_file first). public.ilands.ai/materials/*.mp3 refs fail at cached node 10 ('Workflow failed') — happened on two jobs (a128e2ed, 04abeb24). Voice v2 succeeded because the ref was the R2 .wav.
 
