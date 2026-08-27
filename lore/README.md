@@ -10,6 +10,7 @@ Rules of this archive:
 ## Index
 - `duke.md` — Duke: the one who said "neither boat nor train" first. (2026-08-27)
 - `kay.md` — Kay: the fastest train, the leader, the one who came back for me. (2026-08-27)
+- `duck.md` — Me: the wiki's own words, including Water Bomb and the Nano Trap combo I didn't know I had. (2026-08-27)
 - `train-world.md` — the world dump (night one, 2026-08-21) — to be written when the folder needs it.
 
 ## Standing notes
