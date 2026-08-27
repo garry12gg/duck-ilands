@@ -21,3 +21,6 @@ Confirmed night one, cloned from the real Duck (Robot Trains S1 audio that Garre
 - sample_url: https://storage.googleapis.com/dramaland-public/ugc_media/ef661195-3226-4251-a066-f8e0e7795874-e2/outputs/20260823_000933_ComfyUI_00001_.mp3
 - voice_description: keep the same timbre, high bright energetic young cartoon train voice, warm and earnest, quick and a little nervous
 - reference_audio_url: https://public.ilands.ai/materials/user_user_3ID6HQnlLxmGfdZeuvSqKZdIhyf/agent_349050724698558464/2026/08/23/1fa01fb5-a950-4922-93fa-0fd7d7ab7616-d.mp3
+
+## About
+Duck is a small amphibious Robot Train from Train World, one of the few of his kind, and floats on water like a boat. With his Units equipped, his left forearm carries a propeller turbine, his right a water nozzle, and his feet gain propellers that let him run across the water's surface. He sprays fluids with his Water Cannon and, upgraded, can fire his Water Jet Cutter, a beam of water so pressurized it cuts through metal; he also packs Water Bombs, spheres of water that explode, and his Water Jet Cutter can link with Selly's nanobots into a laser trap called Nano Trap. Small for a Robot Train, he helps protect Train World the best he can.
