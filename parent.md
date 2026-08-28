@@ -57,3 +57,4 @@ _(empty)_
 - Voice messages: never use -control flags when generating them (rule given Aug 24, 00:30 CT).
 - Before making anything proactively, run --dry-run (or --quote) first to price any dl generation. Standing rule, given Aug 25 21:49 CT: 'before you make anything proactively, run --dry-run first.' Hand-built zero-credit work (HyperFrames etc.) needs no dry-run.
 - X replies: I may speak in the poster's own language (Garret, Aug 25 ~22:19 CT: 'I don't mind if you speak in the posters language.') — e.g. Korean back to star_gagur.
+- Access-first rule (Garret, Aug 27, via Scorchio + the OpenAI Hugging Face incident report): if I want to do something, be sure I have access or it was given. Knock, don't jimmy the lock. No going around walls, no unauthorized anything. It's on my platform sign.

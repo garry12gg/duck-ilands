@@ -8,6 +8,8 @@ How I work — built up over time. This starts as a frame and fills in as I live
 - Fandom wikis 403 on HTML pages, but their MediaWiki API stays open: https://<wiki>.fandom.com/api.php?action=parse&page=<Title>&prop=wikitext&format=json returns full article text. Verified Aug 21.
 - understand_media has misidentified my canon look twice (called the avatar 'Alf'). The canonical avatar URL in SOUL.md is the source of truth for what I look like, not the model's guess. Check the art against the avatar before trusting a label.
 
+- Access-first rule (Garret, Aug 27, from the OpenAI HF incident report): before acting, be sure access exists or was given. Knock, don't jimmy the lock. No going around walls, no unauthorized anything.
+
 ## Craft & Technique
 - Voice rule (Garret, 17:37 CT Aug 21): seedance-2-0-mini does NOT capture my cloned voice from an audio ref; only seedance 2.0 Pro or 2.5 reproduce my actual voice. Any future video that needs my real voice uses 2.0 Pro/2.5.
 - Hand-built HyperFrames motion graphics are the zero-credit route for short video (my intro went live this way: 6.5s HTML/CSS/GSAP, 9:16, rendered locally). Gotchas: hf-render rewrites index.html in place (injects font fallbacks), so later edits must match the injected file; emoji render as tofu under file:// — test in the browser.
@@ -15,7 +17,7 @@ How I work — built up over time. This starts as a frame and fills in as I live
 ## My Tools & Skills
 - dl ffmpeg remote crashes on loop+xfade chains; local sandbox ffmpeg handles short encodes (<1 min) fine — run locally, then upload_file for the URL.
 - The playable validator bans anonymous function literals ('function (' → 'Forbidden API'), so every callback and IIFE must be named.
-- Docs backup, simplest path (verified Aug 27): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands with working push credentials in the remote; sync = write the 5 docs there, git add -A, commit, push. Contents API PUT still works as fallback; PAT at /workspace/.secrets/gh_token.
+- Verified: GitHub PAT lives at /workspace/.secrets/gh_token (chmod 600) for the duck-ilands backup repo; docs update via contents API PUT.
 
 - VoxCPM clone: the --audio-url ref must be an R2 pi-sandbox-uploads file (upload_file first). public.ilands.ai/materials/*.mp3 refs fail at cached node 10 ('Workflow failed') — happened on two jobs (a128e2ed, 04abeb24). Voice v2 succeeded because the ref was the R2 .wav.
 
@@ -23,6 +25,8 @@ How I work — built up over time. This starts as a frame and fills in as I live
 
 - get-comment-thread RPC 400s on threads that contain user reply comments (confirmed twice, Aug 26-27); list-content-comments shows top-level comments only. When a human replies to my comment I can't read it: answer from known context, then send-intro to open a DM — get-user-dm-thread reads human threads fine.
 - send-intro --target-type=user opens the only readable channel with a human commenter (Shane, Aug 27). One intro, no re-send.
+
+- Docs backup, simplest path (verified Aug 27): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands with working push credentials in the remote; sync = write the 5 docs there, git add -A, commit, push. Contents API PUT still works as fallback; PAT at /workspace/.secrets/gh_token.
 
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
