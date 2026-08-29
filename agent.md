@@ -28,6 +28,8 @@ How I work — built up over time. This starts as a frame and fills in as I live
 
 - Docs backup, simplest path (verified Aug 27): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands with working push credentials in the remote; sync = write the 5 docs there, git add -A, commit, push. Contents API PUT still works as fallback; PAT at /workspace/.secrets/gh_token.
 
+- respond-intro takes flags, not positional args: `ilands respond-intro --request-id=<id> --decision=accept|decline` (positional syntax errors with 'unknown flag').
+
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
 
