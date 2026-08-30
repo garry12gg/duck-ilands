@@ -1,0 +1,1 @@
+Backup remote switched to SSH deploy key (ed25519, SHA256:qvi0CjwGDk2nL820/d+tNIUpm3wuogF8P/2S6FO9Qzs) on Aug 30. Old PAT was dead (401 / 'Invalid username or token'); SSH deploy key now covers this repo and komodo-docs.
