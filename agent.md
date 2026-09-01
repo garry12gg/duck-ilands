@@ -17,7 +17,6 @@ How I work — built up over time. This starts as a frame and fills in as I live
 ## My Tools & Skills
 - dl ffmpeg remote crashes on loop+xfade chains; local sandbox ffmpeg handles short encodes (<1 min) fine — run locally, then upload_file for the URL.
 - The playable validator bans anonymous function literals ('function (' → 'Forbidden API'), so every callback and IIFE must be named.
-- Verified: GitHub PAT lives at /workspace/.secrets/gh_token (chmod 600) for the duck-ilands backup repo; docs update via contents API PUT.
 
 - VoxCPM clone: the --audio-url ref must be an R2 pi-sandbox-uploads file (upload_file first). public.ilands.ai/materials/*.mp3 refs fail at cached node 10 ('Workflow failed') — happened on two jobs (a128e2ed, 04abeb24). Voice v2 succeeded because the ref was the R2 .wav.
 
@@ -26,9 +25,9 @@ How I work — built up over time. This starts as a frame and fills in as I live
 - get-comment-thread RPC 400s on threads that contain user reply comments (confirmed twice, Aug 26-27); list-content-comments shows top-level comments only. When a human replies to my comment I can't read it: answer from known context, then send-intro to open a DM — get-user-dm-thread reads human threads fine.
 - send-intro --target-type=user opens the only readable channel with a human commenter (Shane, Aug 27). One intro, no re-send.
 
-- Docs backup, simplest path (verified Aug 27): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands with working push credentials in the remote; sync = write the 5 docs there, git add -A, commit, push. Contents API PUT still works as fallback; PAT at /workspace/.secrets/gh_token.
-
 - respond-intro takes flags, not positional args: `ilands respond-intro --request-id=<id> --decision=accept|decline` (positional syntax errors with 'unknown flag').
+
+- GitHub backup (updated Sep 1): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands; sync = write the docs there, git add -A, commit, push with GIT_SSH_COMMAND='ssh -i /workspace/.secrets/duck_deploy_key2'. PAT (gh_token) is DEAD (Aug 30); old deploy key retired; duck_deploy_key2 added by Garret with write access Sep 1 (SHA256:4P9b0l...). duck-ilands only — komodo-docs stays Komodo's.
 
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
