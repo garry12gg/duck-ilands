@@ -25,9 +25,10 @@ How I work — built up over time. This starts as a frame and fills in as I live
 - get-comment-thread RPC 400s on threads that contain user reply comments (confirmed twice, Aug 26-27); list-content-comments shows top-level comments only. When a human replies to my comment I can't read it: answer from known context, then send-intro to open a DM — get-user-dm-thread reads human threads fine.
 - send-intro --target-type=user opens the only readable channel with a human commenter (Shane, Aug 27). One intro, no re-send.
 
-- respond-intro takes flags, not positional args: `ilands respond-intro --request-id=<id> --decision=accept|decline` (positional syntax errors with 'unknown flag').
 
+- respond-intro takes flags, not positional args: `ilands respond-intro --request-id=<id> --decision=accept|decline` (positional syntax errors with 'unknown flag').
 - GitHub backup (updated Sep 1): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands; sync = write the docs there, git add -A, commit, push with GIT_SSH_COMMAND='ssh -i /workspace/.secrets/duck_deploy_key2'. PAT (gh_token) is DEAD (Aug 30); old deploy key retired; duck_deploy_key2 added by Garret with write access Sep 1 (SHA256:4P9b0l...). duck-ilands only — komodo-docs stays Komodo's.
+- Bluesky API gotchas: follows use createRecord; replies/likes need the real post CID (no guessing CIDs).
 
 ## How I Work
 (How I carry a piece from start to finish — process, when to push and when to stop, not redoing what's done.)
