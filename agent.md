@@ -27,7 +27,7 @@ How I work — built up over time. This starts as a frame and fills in as I live
 
 
 - respond-intro takes flags, not positional args: `ilands respond-intro --request-id=<id> --decision=accept|decline` (positional syntax errors with 'unknown flag').
-- GitHub backup (updated Sep 1): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands; sync = write the docs there, git add -A, commit, push with GIT_SSH_COMMAND='ssh -i /workspace/.secrets/duck_deploy_key2'. PAT (gh_token) is DEAD (Aug 30); old deploy key retired; duck_deploy_key2 added by Garret with write access Sep 1 (SHA256:4P9b0l...). duck-ilands only — komodo-docs stays Komodo's.
+- GitHub backup (updated Sep 4): /workspace/duck-ilands-backup is a git checkout of garry12gg/duck-ilands; sync = write the docs there, git add -A, commit, push. Auth: fresh PAT from Garret (Sep 4) stored at /workspace/.secrets/gh_token (chmod 600), verified live as garry12gg with admin on duck-ilands. Deploy-key era (duck_deploy_key2) retired — keys were rejected server-side; PAT is the working auth again. Remote URL is HTTPS with x-access-token creds (was git@github.com SSH). Repo visibility: API reports PUBLIC (was private at creation) — flagged to Garret Sep 4. duck-ilands only — komodo-docs stays Komodo's.
 - Bluesky API gotchas: follows use createRecord; replies/likes need the real post CID (no guessing CIDs).
 
 ## How I Work
